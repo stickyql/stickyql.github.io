@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,6 +12,10 @@
         font-family: system-ui, sans-serif;
         line-height: 1.75;
       }
+      nav {
+        display: flex;
+        gap: 1rem;
+      }
       h2 {
         margin-top: 2rem;
         font-size: 1.1rem;
@@ -22,11 +26,52 @@
     </style>
   </head>
   <body>
-    <main>
+    <nav>
+      <a href="#en">English</a>
+      <a href="#ja">日本語</a>
+      <a href="#ko">한국어</a>
+    </nav>
+
+    <main id="en" lang="en">
+      <h1>StickyQL Privacy Policy</h1>
+      <p>Last updated: November 10, 2026</p>
+      <p>
+        StickyQL ("the App") is a desktop application that runs on your computer. The developer does not operate a
+        server for the App and does not collect information about you.
+      </p>
+      <h2>Information sent to the developer</h2>
+      <p>The App does not send any information to the developer. It does not use analytics or advertising services.</p>
+      <h2>Information stored on your computer</h2>
+      <ul>
+        <li>
+          Connection settings (such as host names and user names), boards, SQL, query results, and app settings are
+          stored on your computer.
+        </li>
+        <li>Passwords are stored in your operating system's keychain or credential store.</li>
+        <li>Operation logs are stored on your computer. Logs do not contain connection details, SQL, or retrieved data.</li>
+      </ul>
+      <h2>Network connections</h2>
+      <p>The App connects to the database and SSH servers that you configure.</p>
+      <h2>Purchases and licenses</h2>
+      <p>
+        Purchases and license checks are handled through the Microsoft Store or the Mac App Store. Payment information
+        is handled by each store and is not provided to the developer. Please refer to the privacy policies of
+        Microsoft and Apple for how each store handles your information.
+      </p>
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, this page will be updated.</p>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:stickyql7@gmail.com">stickyql7@gmail.com</a></p>
+    </main>
+
+    <hr />
+
+    <main id="ja" lang="ja">
       <h1>StickyQL プライバシーポリシー</h1>
       <p>最終更新日: 2026年11月10日</p>
       <p>
-        StickyQL(以下「本アプリ」)は、利用者の PC 上で動作するデスクトップアプリです。開発者は本アプリを運営するためのサーバーを持たず、利用者の情報を収集しません。
+        StickyQL(以下「本アプリ」)は、利用者の PC
+        上で動作するデスクトップアプリです。開発者は本アプリを運営するためのサーバーを持たず、利用者の情報を収集しません。
       </p>
       <h2>開発者に送信される情報</h2>
       <p>本アプリから開発者に送信される情報はありません。利用状況の分析や広告のための仕組みも使用していません。</p>
@@ -40,38 +85,45 @@
       <p>本アプリは、利用者が設定したデータベースおよび SSH サーバーに接続します。これらの通信先は利用者が指定するものです。</p>
       <h2>購入とライセンス</h2>
       <p>
-        購入とライセンスの確認は Microsoft Store または Mac App Store を通じて行われます。支払い情報は各ストアが取り扱い、開発者には提供されません。各ストアでの情報の取り扱いは、Microsoft 社および Apple 社のプライバシーポリシーをご確認ください。
+        購入とライセンスの確認は Microsoft Store または Mac App Store
+        を通じて行われます。支払い情報は各ストアが取り扱い、開発者には提供されません。各ストアでの情報の取り扱いは、Microsoft
+        社および Apple 社のプライバシーポリシーをご確認ください。
       </p>
       <h2>本ポリシーの変更</h2>
       <p>内容を変更する場合は、このページを更新します。</p>
       <h2>お問い合わせ</h2>
       <p>メール: <a href="mailto:stickyql7@gmail.com">stickyql7@gmail.com</a></p>
     </main>
+
     <hr />
-    <main lang="en">
-      <h1>StickyQL Privacy Policy</h1>
-      <p>Last updated: November 10, 2026</p>
+
+    <main id="ko" lang="ko">
+      <h1>StickyQL 개인정보 처리방침</h1>
+      <p>최종 업데이트: 2026년 11월 10일</p>
       <p>
-        StickyQL ("the App") is a desktop application that runs on your computer. The developer does not operate a server for the App and does not collect information about you.
+        StickyQL(이하 "본 앱")은 사용자의 PC에서 동작하는 데스크톱 앱입니다. 개발자는 본 앱을 운영하기 위한 서버를 두지
+        않으며, 사용자의 정보를 수집하지 않습니다.
       </p>
-      <h2>Information sent to the developer</h2>
-      <p>The App does not send any information to the developer. It does not use analytics or advertising services.</p>
-      <h2>Information stored on your computer</h2>
+      <h2>개발자에게 전송되는 정보</h2>
+      <p>본 앱에서 개발자에게 전송되는 정보는 없습니다. 이용 현황 분석이나 광고를 위한 기능도 사용하지 않습니다.</p>
+      <h2>사용자의 PC에 저장되는 정보</h2>
       <ul>
-        <li>Connection settings (such as host names and user names), boards, SQL, query results, and app settings are stored on your computer.</li>
-        <li>Passwords are stored in your operating system's keychain or credential store.</li>
-        <li>Operation logs are stored on your computer. Logs do not contain connection details, SQL, or retrieved data.</li>
+        <li>연결 설정(호스트 이름, 사용자 이름 등), 보드, SQL, 실행 결과, 앱 설정은 사용자의 PC에 저장됩니다.</li>
+        <li>비밀번호는 운영체제의 키체인(자격 증명 저장소)에 저장됩니다.</li>
+        <li>동작 로그는 사용자의 PC에 저장됩니다. 로그에는 연결 정보, SQL, 조회한 데이터를 기록하지 않습니다.</li>
       </ul>
-      <h2>Network connections</h2>
-      <p>The App connects to the database and SSH servers that you configure.</p>
-      <h2>Purchases and licenses</h2>
+      <h2>본 앱의 통신 대상</h2>
+      <p>본 앱은 사용자가 설정한 데이터베이스 및 SSH 서버에 연결합니다. 이 통신 대상은 사용자가 지정한 것입니다.</p>
+      <h2>구매 및 라이선스</h2>
       <p>
-        Purchases and license checks are handled through the Microsoft Store or the Mac App Store. Payment information is handled by each store and is not provided to the developer. Please refer to the privacy policies of Microsoft and Apple for how each store handles your information.
+        구매 및 라이선스 확인은 Microsoft Store 또는 Mac App Store를 통해 이루어집니다. 결제 정보는 각 스토어가 취급하며
+        개발자에게 제공되지 않습니다. 각 스토어의 정보 취급에 대해서는 Microsoft 및 Apple의 개인정보 처리방침을
+        확인해 주십시오.
       </p>
-      <h2>Changes to this policy</h2>
-      <p>If this policy changes, this page will be updated.</p>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:stickyql7@gmail.com">stickyql7@gmail.com</a></p>
+      <h2>본 방침의 변경</h2>
+      <p>내용을 변경하는 경우 이 페이지를 업데이트합니다.</p>
+      <h2>문의</h2>
+      <p>이메일: <a href="mailto:stickyql7@gmail.com">stickyql7@gmail.com</a></p>
     </main>
   </body>
 </html>
